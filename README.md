@@ -3,7 +3,7 @@
 
 Here are some single file small python projects to run in console.
 
-## How to Run
+## How to Run Weather App
 
 For the weather app, open Terminal, and run the following command to install Google text-to-speech API:
 
