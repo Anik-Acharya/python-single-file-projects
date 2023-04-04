@@ -12,7 +12,7 @@ url = f"https://api.weatherapi.com/v1/current.json?key=b13989793f184149a91141538
 
 r = requests.get(url)
 weatherDic = json.loads(r.text)
-print(weatherDic)
+
 temperature = weatherDic["current"]["temp_c"]
 condition = weatherDic["current"]["condition"]["text"]
 audio_text = f"currently in {city} the temperature is {temperature} degree celcius, and the weather condition is {condition}"
